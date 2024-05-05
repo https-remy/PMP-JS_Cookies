@@ -10,3 +10,64 @@ body {
     padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
 
+h1 {
+	font-size: 41px;
+	margin-bottom: 50px;
+	font-weight: 300;
+	text-align: center;
+}
+
+h1 span {
+	font-family: Raleway;
+	font-weight: 600;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.input-group:nth-child(2) {
+	margin-top: 30px;
+}
+
+.container label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.container input {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btns-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+}
+
+form button {
+	min-width: 100px;
+	font-size: 18px;
+	margin: 0 10px;
+	padding: 10px 5px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #006c67;
+	color: #f1f1f1;
+}
+
+.info-txt {
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: center;
+
+}
