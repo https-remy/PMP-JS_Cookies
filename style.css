@@ -1,13 +1,16 @@
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
 body {
-    min-height: 100vh;
-    font-family: Lato, sans-serif;
-    background: linear-gradient(to right, #ffefba, #ffffff); 
-    padding: clamp(20px, 5vw, 50px) 20px 10px;
+	min-height: 100vh;
+	font-family: Lato, sans-serif;
+	background: linear-gradient(to right, #ffefba, #ffffff);
+	padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
 
 h1 {
@@ -69,5 +72,19 @@ form button {
 	font-size: 18px;
 	margin-top: 20px;
 	text-align: center;
+}
 
+.toasts-container {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.toast {
+	font-size: 17px;
+	color: #f1f1f1;
+	padding: 10px;
+	margin: 10px 0;
+	min-width: 150px;
+	border-radius: 2px;
 }
